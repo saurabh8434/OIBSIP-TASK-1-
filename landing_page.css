@@ -1,0 +1,100 @@
+body{
+    /* CSS reset */
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.jpg)no-repeat center center/cover;
+    overflow: hidden;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    position: relative;
+    left: 23px;
+    height:63px;
+    width: 63px;
+    border: transparent;
+    border-radius: 100px;
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.btn{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(207, 91, 62);
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    height: 360px;
+}
+.form-group input{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 74%;
+}
